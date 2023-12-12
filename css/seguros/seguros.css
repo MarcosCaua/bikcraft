@@ -1,0 +1,14 @@
+.vantagens-seg-bg {
+    background: var(--cor-12);
+}
+
+.vantagens-seg {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 60px;
+}
+
+.vantagens-seg-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
