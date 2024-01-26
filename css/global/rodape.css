@@ -68,6 +68,12 @@ footer span {
     gap: 80px;
 }
 
+@media (max-width: 500px) {
+    .rodape-container {
+        padding: 10px;
+    }
+}
+
 @media (max-width: 400px) {
     .part2-rodape ul::after {
         display: none;

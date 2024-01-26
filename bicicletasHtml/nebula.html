@@ -10,10 +10,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css">
-  <title>BikCraft</title>
+  <link rel="preload" href="/css/style.css" as="style">
+  <link rel="stylesheet" href="/css/style.min.css">
+  <title>Nebula | BikCraft</title>
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
-</head>
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+
 
 <body>
   <header>
@@ -52,7 +55,7 @@
           <div class="escolhasu-info1">
             <p class="font-2-l cor-5">A Nebula Cosmic é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
             <div class="escolhasu-info1-container">
-              <a href="" class="button-1">COMPRAR AGORA</a>
+              <a href="/orcamento.html?tipo=bikcraft&produto=nebula" class="button-1">COMPRAR AGORA</a>
               <ul>
                 <li class="font-1-xs cor-6"><img src="/img/icones/entrega.svg" alt="">Entrega em 5 dias</li>
                 <li class="font-1-xs cor-6"><img src="/img/icones/estoque.svg" alt="">18 em estoque</li>
@@ -192,3 +195,7 @@
     </div>
     <span class="font-2-s">Bikcraft © Alguns direitos reservados.</span>
   </footer>
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
